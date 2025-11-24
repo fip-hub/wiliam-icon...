@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Willyne Restaurant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+    }
+    header {
+      background: url('/mnt/data/ac56027d-70d1-44f8-b0c2-53da63d56474.jpg') no-repeat center/cover;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 10px 0 20px;
+    }
+    .btn {
+      background: #f2b300;
+      padding: 12px 25px;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .menu-item {
+      background: #222;
+      padding: 20px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .order-section {
+      text-align: center;
+      margin-top: 40px;
+    }
+    footer {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Willyne Restaurant</h1>
+    <p>Delicious Meals • Affordable Prices</p>
+    <a href="#order" class="btn">Place an Order</a>
+  </header>
+
+  <nav style="background:#000;padding:15px;text-align:center;">
+    <a href="#home" style="margin:0 15px;color:#f2b300;text-decoration:none;">Home</a>
+    <a href="#menu" style="margin:0 15px;color:#f2b300;text-decoration:none;">Menu</a>
+    <a href="#order" style="margin:0 15px;color:#f2b300;text-decoration:none;">Order</a>
+    <a href="#contact" style="margin:0 15px;color:#f2b300;text-decoration:none;">Contact</a>
+  </nav>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+
+    <div class="menu-item">
+      <span>Grilled Beef Steak</span>
+      <strong>ksh 800</strong>
+    </div>
+    <img src="images (5).jpeg" alt="Steak" style="width:70%;border-radius:7px;margin-bottom:15px;"/>
+
+    <div class="menu-item">
+      <span>Fried Chicken</span>
+      <strong>ksh 550</strong>
+    </div>
+    <img src="images (3).jpeg" alt="Chicken" style="width:70%;border-radius:7px;margin-bottom:15px;"/>
+
+    <div class="menu-item">
+      <span>Vegetable Salad</span>
+      <strong> ksh 250</strong>
+    </div>
+    <img src="images (4).jpeg" alt="Salad" style="width:70%;border-radius:7px;margin-bottom:15px;"/>
+
+    <div class="menu-item">
+      <span>Fresh Juice</span>
+      <strong>ksh 150</strong>
+    </div>
+    <img src="istockphoto-487402642-612x612.jpg" alt="Juice" style="width:70%;border-radius:7px;margin-bottom:15px;"/>
+
+    <div class="menu-item">
+      <span>Soda Drink</span>
+      <strong>ksh 150</strong>
+    </div>
+    <img src="images (1).jpeg" alt="Soda" style="width:70%;border-radius:7px;margin-bottom:15px;"/>
+
+    <div class="menu-item">
+      <span>Shawarma & Chips</span>
+      <strong>ksh 550</strong>
+    </div>
+    <img src="images.jpeg" alt="Shawarma" style="width:70%;border-radius:7px;margin-bottom:15px;"/>
+
+    <div class="order-section" id="order">
+      <h2>Place Your Order</h2>
+
+      <form style="background:#222;padding:20px;border-radius:10px;max-width:500px;margin:auto;">
+        <label>Name:</label>
+        <input type="text" style="width:100%;padding:10px;margin:10px 0;" required>
+
+        <label>Phone Number:</label>
+        <input type="tel" style="width:100%;padding:10px;margin:10px 0;" required>
+
+        <label>Select Food:</label>
+        <select style="width:100%;padding:10px;margin:10px 0;">
+          <option>Grilled Beef Steak</option>
+          <option>Fried Chicken</option>
+          <option>Vegetable Salad</option>
+          <option>Fresh Juice</option>
+          <option>Shawarma & Chips</option>
+          <option>Soda Drink</option>
+        </select>
+
+        <label>Quantity:</label>
+        <input type="number" min="1" value="1" style="width:100%;padding:10px;margin:10px 0;" required>
+
+        <button class="btn" type="submit">Submit Order</button>
+      </form>
+    </div>
+
+    <div id="contact" style="margin-top:40px;text-align:center;">
+      <h2>Contact Us</h2>
+      <p><strong>Name:</strong> Willyne Icon</p>
+      <p><strong>Phone:</strong> 0714784660</p>
+      <p><strong>Email:</strong> iconwillyne@gmail.com</p>
+    </div>
+    <h2>Our Menu</h2>
+
+    <div class="menu-item">
+      <span>Grilled Beef Steak</span>
+      <strong>ksh 800</strong>
+    </div>
+
+    <div class="menu-item">
+      <span>Fried Chicken</span>
+      <strong>ksh 550</strong>
+    </div>
+
+    <div class="menu-item">
+      <span>Vegetable Salad</span>
+      <strong>ksh 250</strong>
+    </div>
+
+    <div class="menu-item">
+      <span>Fresh Juice</span>
+      <strong>ksh 150</strong>
+    </div>
+
+    <div class="menu-item">
+      <span>Soda Drink</span>
+      <strong>ksh 150</strong>
+    </div>
+
+    <div class="menu-item">
+      <span>Shawarma & Chips </span>
+      <strong>ksh 550</strong>
+    </div>
+
+
+    <div class="order-section" id="order">
+      <h2>Place Your Order</h2>
+      <p><strong>Name:</strong> Willyne Icon</p>
+      <p><strong>Phone:</strong> 0714784660</p>
+      <p><strong>Email:</strong> iconwillyne@gmail.com</p>
+      <a href="mailto:iconwillyne@gmail.com" class="btn">Order Now</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Willyne Restaurant. All Rights Reserved.
+  </footer>
+</body>
+</html>
